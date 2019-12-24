@@ -19,11 +19,7 @@ const IndexPage = () => (
     </div>
     <Link to="/page-2/">Go to page 2</Link>
 
-    <SampleKey
-      sound={Airhorn}
-      text="Horn"
-      style={{ border: "solid pink 2px" }}
-    />
+    <SampleKey sound={Airhorn} text="Horn" />
   </Layout>
 )
 
