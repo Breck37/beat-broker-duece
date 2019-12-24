@@ -5,6 +5,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import SampleKey from "../components/Keys/sampleKey"
+import { Airhorn } from "../sounds"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -15,6 +18,12 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+
+    <SampleKey
+      sound={Airhorn}
+      text="Horn"
+      style={{ border: "solid pink 2px" }}
+    />
   </Layout>
 )
 
